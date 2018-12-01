@@ -10,6 +10,7 @@ public class HelloController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
+		//Test commit
 		model.addAttribute("message", "Spring 3 MVC Hello World");
 		return "hello";
 
