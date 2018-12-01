@@ -12,6 +12,7 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 		//Test commit
 		model.addAttribute("message", "Spring 3 MVC Hello World");
+		//Test commit
 		return "hello";
 
 	}
